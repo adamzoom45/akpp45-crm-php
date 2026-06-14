@@ -1,0 +1,149 @@
+/* CRM Admin Styles */
+.akpp-crm-dashboard {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.akpp-crm-dashboard h1 {
+    color: #00ff88;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.akpp-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.akpp-stat-card {
+    background: #1a2332;
+    border: 1px solid rgba(0, 255, 136, 0.2);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s ease;
+}
+
+.akpp-stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 255, 136, 0.2);
+}
+
+.akpp-stat-card .stat-icon {
+    font-size: 48px;
+}
+
+.akpp-stat-card .stat-content h3 {
+    color: #9ca3af;
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+}
+
+.akpp-stat-card .stat-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00ff88;
+    margin: 0;
+}
+
+.akpp-form-section {
+    background: #1a2332;
+    border: 1px solid rgba(0, 255, 136, 0.2);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.akpp-form-section h3 {
+    color: #00ff88;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    color: #9ca3af;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    background: #0a0f1c;
+    border: 1px solid rgba(0, 255, 136, 0.3);
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #00ff88;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+}
+
+.form-actions {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.wp-list-table th {
+    background: rgba(0, 255, 136, 0.1) !important;
+    color: #00ff88 !important;
+}
+
+.wp-list-table td {
+    color: #d1d5db;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.status-completed {
+    background: rgba(16, 185, 129, 0.2);
+    color: #10b981;
+}
+
+.status-rejected {
+    background: rgba(239, 68, 68, 0.2);
+    color: #ef4444;
+}
+
+code {
+    background: rgba(0, 255, 136, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #00ff88;
+}
